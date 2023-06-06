@@ -1,0 +1,816 @@
+[2023-06-06 17:38:00] local.ERROR: There are no commands defined in the "mke" namespace.
+
+Did you mean this?
+    make {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"mke\" namespace.
+
+Did you mean this?
+    make at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php:657)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(708): Symfony\\Component\\Console\\Application->findNamespace('mke')
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('mke:miration')
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2023-06-06 17:38:39] local.ERROR: Command "make:miration" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:miration\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('make:miration')
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2023-06-06 17:45:49] local.ERROR: Command "make:miration" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:miration\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('make:miration')
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2023-06-06 17:58:53] local.ERROR: Call to a member function useCurrent() on null {"exception":"[object] (Error(code: 0): Call to a member function useCurrent() on null at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_174629_create_products_table.php:19)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(284): Illuminate\\Database\\Migrations\\Migration@anonymous->{closure}(Object(Illuminate\\Database\\Schema\\Blueprint))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Database\\Schema\\Builder->Illuminate\\Database\\Schema\\{closure}(Object(Illuminate\\Database\\Schema\\Blueprint))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): tap(Object(Illuminate\\Database\\Schema\\Blueprint), Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_174629_create_products_table.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1746...', Object(Closure))
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1746...', Object(Closure))
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 {main}
+"} 
+[2023-06-06 17:59:23] local.ERROR: Call to a member function useCurrent() on null {"exception":"[object] (Error(code: 0): Call to a member function useCurrent() on null at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_174629_create_products_table.php:19)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(284): Illuminate\\Database\\Migrations\\Migration@anonymous->{closure}(Object(Illuminate\\Database\\Schema\\Blueprint))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Database\\Schema\\Builder->Illuminate\\Database\\Schema\\{closure}(Object(Illuminate\\Database\\Schema\\Blueprint))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): tap(Object(Illuminate\\Database\\Schema\\Blueprint), Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_174629_create_products_table.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1746...', Object(Closure))
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1746...', Object(Closure))
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 {main}
+"} 
+[2023-06-06 18:25:55] local.ERROR: Method Illuminate\Database\Schema\Blueprint::increment does not exist. {"exception":"[object] (BadMethodCallException(code: 0): Method Illuminate\\Database\\Schema\\Blueprint::increment does not exist. at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Macroable\\Traits\\Macroable.php:112)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(15): Illuminate\\Database\\Schema\\Blueprint->__call('increment', Array)
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(284): Illuminate\\Database\\Migrations\\Migration@anonymous->{closure}(Object(Illuminate\\Database\\Schema\\Blueprint))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Database\\Schema\\Builder->Illuminate\\Database\\Schema\\{closure}(Object(Illuminate\\Database\\Schema\\Blueprint))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): tap(Object(Illuminate\\Database\\Schema\\Blueprint), Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 {main}
+"} 
+[2023-06-06 18:28:28] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:580)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(580): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `p...', Array)
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2023-06-06 18:29:58] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:580)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(580): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `p...', Array)
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2023-06-06 18:36:11] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:580)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(580): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `p...', Array)
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2023-06-06 18:36:28] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:580)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(580): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `p...', Array)
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_181418_create_products.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1814...', Object(Closure))
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1814...', Object(Closure))
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2023-06-06 18:41:39] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create-at` timestamp not null default CURRENT_TIMESTAMP, `create-at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_184100_create_products_table.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1841...', Object(Closure))
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1841...', Object(Closure))
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create-at' at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:580)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(580): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `p...', Array)
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_184100_create_products_table.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1841...', Object(Closure))
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1841...', Object(Closure))
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2023-06-06 18:42:20] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create_at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create_at` timestamp not null default CURRENT_TIMESTAMP, `create_at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create_at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `create_at` timestamp not null default CURRENT_TIMESTAMP, `create_at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_184100_create_products_table.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1841...', Object(Closure))
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1841...', Object(Closure))
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'create_at' at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:580)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(580): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `p...', Array)
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_184100_create_products_table.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1841...', Object(Closure))
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1841...', Object(Closure))
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2023-06-06 18:43:17] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `created_at` timestamp not null default CURRENT_TIMESTAMP, `created_at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `products` (`id` int unsigned not null auto_increment primary key, `name` varchar(25) not null, `price` decimal(8, 2) not null, `description` text not null, `created_at` timestamp not null default CURRENT_TIMESTAMP, `created_at` timestamp not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:795)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_184100_create_products_table.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1841...', Object(Closure))
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1841...', Object(Closure))
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:580)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(580): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(788): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `p...', Array)
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(755): Illuminate\\Database\\Connection->runQueryCallback('create table `p...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(581): Illuminate\\Database\\Connection->run('create table `p...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(110): Illuminate\\Database\\Connection->statement('create table `p...')
+#5 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(285): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(353): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#8 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\database\\migrations\\2023_06_06_184100_create_products_table.php(21): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(493): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(410): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(419): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(756): Illuminate\\Console\\View\\Components\\Task->render('2023_06_06_1841...', Object(Closure))
+#15 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2023_06_06_1841...', Object(Closure))
+#16 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#17 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(208): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(178): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 {main}
+"} 
+[2023-06-06 19:01:59] local.ERROR: Command "make:add_category_to_products_table" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:add_category_to_products_table\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test at C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('make:add_catego...')
+#1 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\Module16\\MigrationAssignment\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
